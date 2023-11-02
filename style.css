@@ -14,14 +14,16 @@ header{
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    min-height: 300px;
 }
+
 .top-header,.bottom-header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex: 1;
 }
 .top-header ul{
     display: flex;
@@ -29,8 +31,13 @@ header{
     
 }
 .header-logo{
-    font: 28px #F9FAF8 ;
+    font-size: 28px;
+    color:  #F9FAF8 ;
     font-weight: bolder;
+    margin: 8px;
+}
+.bottom-thingy{
+    display: flex;
 }
 a {
     text-decoration: none;
